@@ -34,15 +34,28 @@ $(document).ready(() => {
     }
     else{
         $('#contact div:last-child').css({
-            'width': '50%'
+            'width': '60%'
         });
         $('#contact').css({
-            'height': $('#contact div:last-child').height() / 0.75 + 'px'
+            'height': $('#contact div:last-child').height() / 0.6 + 'px',
+            'background-size': 'auto 100%'
         });
         $('#testimonials').css({
             'background-size': 'auto'
         });
         $('#man').height($('#man').width());
+        $(window).resize(() => {
+            $('#contact div:last-child').css({
+                'width': '60%'
+            });
+            $('#contact').css({
+                'height': $('#contact div:last-child').height() / 0.6 + 'px'
+            });
+            $('#testimonials').css({
+                'background-size': 'auto'
+            });
+            $('#man').height($('#man').width());
+        });
     }
 
 

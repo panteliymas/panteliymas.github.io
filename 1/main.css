@@ -59,6 +59,7 @@ input[type=button]:hover{
 
 .consult_form p{
     color: white;
+    margin-bottom: 20px;
 }
 
 .consult_form input[type=text], .consult_form input[type=email], .consult_form input[type=tel]{

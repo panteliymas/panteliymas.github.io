@@ -14,7 +14,7 @@ header{
 
 #logo{
     margin: 10px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 #head-num{
@@ -23,7 +23,6 @@ header{
 
 #menu{
     margin: 10px;
-    flex-wrap: wrap;
 }
 
 #menu a{
@@ -43,28 +42,29 @@ header{
 }
 
 .consult_form span:first-child{
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .consult_form span:last-child{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .consult_form p{
     max-width: 90%;
-    margin: auto;
+    margin: 20px auto;
+
 }
 
 .consult_form input[type=text], .consult_form input[type=email], .consult_form input[type=tel]{
     height: 30px;
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     min-width: 400px;
     margin: 10px;
 }
 
 .consult_form textarea{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     min-width: 400px;
     height: 100px;
