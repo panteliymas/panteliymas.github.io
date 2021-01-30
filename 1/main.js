@@ -23,14 +23,28 @@ $(document).ready(() => {
         };
     }
 
-
-    set_back('contact');
-    set_back('testimonials');
-
-    $(window).resize(() => {
+    if ($(this).width() > 1150){
         set_back('contact');
         set_back('testimonials');
-    });
+
+        $(window).resize(() => {
+            set_back('contact');
+            set_back('testimonials');
+        });
+    }
+    else{
+        $('#contact div:last-child').css({
+            'width': '50%'
+        });
+        $('#contact').css({
+            'height': $('#contact div:last-child').height() / 0.75 + 'px'
+        });
+        $('#testimonials').css({
+            'background-size': 'auto'
+        });
+        $('#man').height($('#man').width());
+    }
+
 
     let news_div = $('#news');
     for (let i = 0; i < 3; i++){
