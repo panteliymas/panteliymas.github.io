@@ -1,0 +1,21 @@
+h1{
+    font-size: 25px;
+}
+
+p{
+    font-size: 15px;
+}
+
+#contact{
+    flex-direction: column;
+}
+
+.appeal{
+    display: none;
+}
+
+#aboutus{
+    min-width: auto;
+    flex-direction: column;
+    align-items: center;
+}

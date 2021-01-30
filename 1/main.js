@@ -1,29 +1,37 @@
 $(document).ready(() => {
     let body = $("body");
 
+    function set_back(id) {
+        let body = $('body');
+        let img = document.createElement('img');//$("<img>");
+        let back = $('#' + id);
+        let url = back.css('background-image').split('"')[1];
 
-    let back1 = $('#contact');
-    let url = back1.css('background-image').split('"')[1];
-    let img = $("<img>");
-    img.attr("src", url);
-    img.css("width", "100%")
-    body.append(img);
-    let w = img.width(), h = img.height();
-    back1.height(back1.width() * h/w);
-    img.remove();
+        //alert(url);
+        $(img).attr('src', url);
+        let img_ratio = 0;
+        document.body.appendChild(img);
+        let w = $(img).width();
+        let h = $(img).height();
+        img.onload = function(){
+            w = $(this).width();
+            h = $(this).height();
+            img_ratio = h / w;
+            back.height(body.width() * img_ratio);
+            back.css('background-size', body.width() + 'px ' + (body.width() * h/w) + 'px');
+            $(img).remove();
+        };
+    }
 
 
-    let back2 = $('#testimonails');
-    url = back1.css('background-image').split('"')[1];
-    img.attr("src", url);
-    img.css("width", "100%");
-    body.append(img);
-    w = img.width();
-    h = img.height();
-    back2.height(back1.width() * h/w);
-    img.remove();
+    set_back('contact');
+    set_back('testimonials');
 
-    delete img;
+    $(window).resize(() => {
+        set_back('contact');
+        set_back('testimonials');
+    });
+
     let news_div = $('#news');
     for (let i = 0; i < 3; i++){
         let newsbox = $('<div class="newsbox"></div>');
@@ -41,4 +49,8 @@ $(document).ready(() => {
         read_more.attr('href', '#');
         newsbox.append(read_more);
     }
+
+
 });
+
+

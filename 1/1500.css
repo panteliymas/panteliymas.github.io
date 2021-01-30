@@ -1,0 +1,53 @@
+h1{
+    font-size: 30px;
+}
+
+#contact div:last-child{
+    padding: 10px 30px;
+}
+
+.appeal span:first-child{
+    font-size: 30px;
+}
+
+.appeal span:last-child{
+    font-size: 50px;
+}
+
+.consult_form p{
+    max-width: 310px;
+}
+
+.consult_form span:first-child{
+    font-size: 25px;
+}
+
+.consult_form span:last-child{
+    font-size: 15px;
+}
+
+.consult_form input[type=text], .consult_form input[type=email], .consult_form input[type=tel]{
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    min-width: 300px;
+    margin: 5px;
+}
+
+.consult_form textarea{
+    font-size: 19px;
+    padding: 5px;
+    min-width: 300px;
+    height: 50px;
+    margin: 5px;
+}
+
+.consult_form input[type=submit]{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#news{
+    width: 100%;
+}

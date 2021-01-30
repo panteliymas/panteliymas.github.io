@@ -2,6 +2,7 @@
 
 #contact{
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./back1.png");
+    background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.6);
     background-position: center;
     display: flex;
@@ -17,6 +18,7 @@
 #contact div:last-child{
     background-color: #0d2e69;
     padding: 30px;
+    /*margin: 100px 0;*/
 }
 
 input[type=button]{
@@ -34,6 +36,22 @@ input[type=button]:hover{
     background-color: #0c285b;
 }
 
+.appeal span:first-child{
+    font-size: 30px;
+}
+
+.appeal span:last-child{
+    font-size: 50px;
+}
+
+.consult_form span:first-child{
+    font-size: 30px;
+}
+
+.consult_form span:last-child{
+    font-size: 20px;
+}
+
 .consult_form{
     text-align: center;
     font-family: RobotoBold, sans-serif;
@@ -47,8 +65,7 @@ input[type=button]:hover{
     height: 40px;
     font-size: 20px;
     padding: 10px;
-    max-width: 600px;
-    width: 400px;
+    min-width: 400px;
     background-color: #0d2e69;
     border: 1px solid rgba(255, 255, 255, 0.7);
     color: white;
@@ -58,8 +75,7 @@ input[type=button]:hover{
 .consult_form textarea{
     font-size: 20px;
     padding: 10px;
-    max-width: 600px;
-    width: 400px;
+    min-width: 400px;
     background-color: #0d2e69;
     border: 1px solid rgba(255, 255, 255, 0.7);
     color: white;
@@ -97,22 +113,30 @@ input[type=button]:hover{
     display: flex;
     justify-content: space-evenly;
     margin: 50px 0;
+    /*flex-wrap: wrap;*/
 }
 
 #man{
     background-image: url("./man.png");
-    width: 560px;
-    height: 527px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45%;
+    flex-basis: 575px;
+    /*width: 560px;*/
+    /*height: 527px;*/
 }
 
 #aboutus_info{
     display: flex;
     flex-direction: column;
-    width: 560px;
+    width: 45%;
+    flex-basis: 575px;
     align-items: start;
 }
 
-#aboutus_info *{
+#div3{
+    padding: 40px 0;
 }
 
 #div3, #testimonials{
@@ -120,7 +144,6 @@ input[type=button]:hover{
     color: white;
     text-align: center;
     background-color: #0d2e69;
-    padding: 40px 0;
 }
 
 #div3 h1{
@@ -134,7 +157,19 @@ input[type=button]:hover{
 
 #testimonials{
     background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./back2.png");
-    padding: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /*padding-top: 40px;*/
+    /*padding: 40px;*/
+    margin: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#testimonials h1{
+    margin: 0;
+    /*padding-top: 40px;*/
 }
 
 #testimonials p{
@@ -160,11 +195,13 @@ input[type=button]:hover{
     display: flex;
     justify-content: space-around;
     color: rgba(0, 0, 0, 0.8);
+    flex-wrap: wrap;
 }
 
 .newsbox{
     width: 360px;
     text-align: start;
+    padding: 10px;
 }
 
 .newsbox p{
