@@ -23,41 +23,31 @@ $(document).ready(() => {
         };
     }
 
-    if ($(this).width() > 1150){
-        set_back('contact');
-        set_back('testimonials');
-
-        $(window).resize(() => {
+    function zalupa(){
+        if ($(window).width() > 1150){
             set_back('contact');
             set_back('testimonials');
-        });
-    }
-    else{
-        $('#contact div:last-child').css({
-            'width': '75%'
-        });
-        $('#contact').css({
-            'height': $('#contact div:last-child').height() / 0.75 + 'px',
-            'background-size': 'auto 100%'
-        });
-        $('#testimonials').css({
-            'background-size': 'auto'
-        });
-        $('#man').height($('#man').width());
-        $(window).resize(() => {
+        }
+        else{
             $('#contact div:last-child').css({
                 'width': '75%'
             });
             $('#contact').css({
-                'height': $('#contact div:last-child').height() / 0.75 + 'px'
+                'height': $('#contact div:last-child').height() / 0.75 + 'px',
+                'background-size': 'auto 100%'
             });
             $('#testimonials').css({
                 'background-size': 'auto'
             });
             $('#man').height($('#man').width());
-        });
+
+        }
     }
 
+    zalupa();
+    $(window).resize(() => {
+        zalupa();
+    });
 
     let news_div = $('#news');
     for (let i = 0; i < 3; i++){
