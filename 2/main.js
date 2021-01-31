@@ -23,29 +23,9 @@ $(document).ready(() => {
         };
     }
 
-    function zalupa(){
-        if ($(window).width() > 1150){
-            set_back('contact');
-        }
-        else{
-            $('#contact div:last-child').css({
-                'width': '75%'
-            });
-            $('#contact').css({
-                'height': $('#contact div:last-child').height() / 0.75 + 'px',
-                'background-size': 'auto 100%'
-            });
-            $('#testimonials').css({
-                'background-size': 'auto'
-            });
-            $('#man').height($('#man').width());
-
-        }
-    }
-
-    zalupa();
+    set_back('contact');
     $(window).resize(() => {
-        zalupa();
+        set_back('contact');
     });
 
     let news_div = $('#news');

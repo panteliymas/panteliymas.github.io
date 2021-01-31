@@ -33,10 +33,6 @@ header{
     flex-direction: column;
 }
 
-.appeal{
-    display: none;
-}
-
 .consult_form{
     padding: 20px;
 }

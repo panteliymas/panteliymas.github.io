@@ -67,6 +67,15 @@ input[type=button]:hover{
     align-items: start;
 }
 
+#aboutus_info h2{
+    font-size: 20px;
+}
+
+#aboutus_info h4{
+    margin: 0;
+    font-size: 20px;
+}
+
 #news_n_articles{
     font-family: 'Playfair Display', serif;
     text-align: center;
