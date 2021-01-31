@@ -1,0 +1,160 @@
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+header{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+#logo{
+    margin: 10px;
+    font-size: 40px;
+}
+
+#head-num{
+    display: none;
+}
+
+#menu{
+    margin: 10px;
+}
+
+#menu a{
+    font-size: 25px;
+}
+
+#contact{
+    flex-direction: column;
+}
+
+.appeal{
+    display: none;
+}
+
+.consult_form{
+    padding: 20px;
+}
+
+.consult_form span:first-child{
+    font-size: 40px;
+}
+
+.consult_form span:last-child{
+    font-size: 30px;
+}
+
+.consult_form p{
+    max-width: 90%;
+    margin: 20px auto;
+
+}
+
+.consult_form input[type=text], .consult_form input[type=email], .consult_form input[type=tel]{
+    height: 30px;
+    font-size: 30px;
+    padding: 10px;
+    min-width: 600px;
+    margin: 10px;
+}
+
+.consult_form textarea{
+    font-size: 30px;
+    padding: 10px;
+    min-width: 600px;
+    height: 100px;
+    margin: 5px;
+}
+
+.consult_form input[type=submit]{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#aboutus{
+    min-width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#man{
+    width: 90%;
+}
+
+#aboutus_info{
+    width: 90%;
+    align-items: center;
+    text-align: justify;
+}
+
+#aboutus_info p{
+    font-size: 25px;
+}
+
+#aboutus_info h2{
+    font-size: 30px;
+}
+
+#aboutus_info h4{
+    font-size: 30px;
+}
+
+#aboutus_info input[type=button]{
+    padding: 20px 80px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0;
+}
+
+#news{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.8);
+    flex-wrap: wrap;
+}
+
+.newsbox{
+    width: 500px;
+    text-align: start;
+    padding: 10px;
+}
+
+.newsbox p{
+    font-family: Roboto, serif;
+}
+
+#news img{
+    width: 500px;
+}
+
+#news h3{
+
+}
+
+footer li{
+    display: list-item;
+    padding: 5px 0;
+    border: none;
+    font-size: 25px;
+}
+
+footer a{
+    font-size: 25px;
+}
+
+#copy_foot{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

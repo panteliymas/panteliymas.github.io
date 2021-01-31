@@ -1,0 +1,44 @@
+@import url(./fonts.css);
+
+footer{
+    background-color: #004166;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+footer li{
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+    border-right: 1px solid white;
+    font-size: 15px;
+}
+
+footer li:last-child{
+    border: none;
+}
+
+footer a{
+    color: #0f0f0f;
+    font-size: 20px;
+}
+
+#contact_foot{
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+#contact_foot p{
+    display: inline-block;
+    text-align: center;
+    width: 400px;
+    color: #0f0f0f;
+}
+
+#copy_foot{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}

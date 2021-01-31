@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+#contact{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("./back1.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    display: flex;
+    font-family: Playfair, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+input[type=button]{
+    background-color: #0d2e69;
+    color: white;
+    padding: 10px 40px;
+    height: 50px;
+    font-family: RobotoBold, sans-serif;
+    font-size: 15px;
+    border: none;
+    margin: 30px 0;
+}
+
+input[type=button]:hover{
+    background-color: #0c285b;
+}
+
+.appeal{
+    width: 75%;
+    margin: auto;
+}
+
+.appeal span:first-child{
+    font-size: 30px;
+}
+
+.appeal span:last-child{
+    font-size: 50px;
+}
+
+
+#aboutus{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    width: 75%;
+}
+
+#man{
+    background-image: url("./img1.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45%;
+    flex-basis: 575px;
+    /*width: 560px;*/
+    /*height: 527px;*/
+}
+
+#aboutus_info{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    flex-basis: 575px;
+    align-items: start;
+}
+
+#news_n_articles{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#news_n_articles p{
+    font-family: sans-serif;
+}
+
+#news_n_articles h1{
+    margin: 0;
+}
+
+#news{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.8);
+    flex-wrap: wrap;
+}
+
+.newsbox{
+    width: 360px;
+    text-align: start;
+    background-color: #fff;
+}
+
+.newsbox p, .newsbox h3, .newsbox a{
+    font-family: Roboto, serif;
+    padding: 10px;
+}
+
+.newsbox a{
+    color: #004166;
+}
+
+#news img{
+    width: 360px;
+}
