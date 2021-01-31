@@ -1,0 +1,158 @@
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#header{
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+#logo{
+    margin: 10px;
+    font-size: 40px;
+}
+
+#head-num{
+    display: none;
+}
+
+#menu{
+    margin: 10px;
+}
+
+#menu a{
+    font-size: 25px;
+}
+
+#contact{
+    flex-direction: column;
+}
+
+.consult_form{
+    padding: 20px;
+}
+
+.consult_form h2{
+    max-width: 90%;
+    margin: 20px auto;
+
+}
+
+.consult_form input[type=text], .consult_form input[type=email]{
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.consult_form textarea{
+    font-size: 20px;
+    padding: 10px;
+    height: 100px;
+    margin: 5px;
+}
+
+.consult_form input[type=submit]{
+    height: 50px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+#aboutus{
+    min-width: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#man{
+    width: 90%;
+}
+
+#aboutus_info{
+    width: 90%;
+    align-items: center;
+    text-align: justify;
+}
+
+#aboutus_info p{
+    font-size: 25px;
+}
+
+#aboutus_info h2{
+    font-size: 30px;
+}
+
+#aboutus_info h4{
+    font-size: 30px;
+}
+
+#aboutus_info input[type=button]{
+    padding: 20px 80px;
+    height: 60px;
+    font-size: 20px;
+    margin: 0;
+}
+
+#news_n_articles{
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.newsbox{
+    text-align: start;
+    width: 100%;
+    /*padding: 10px;*/
+}
+
+.newsbox *{
+    padding: 10px;
+}
+
+.newsbox:nth-child(2){
+    background-size: cover;
+}
+
+.newsbox p{
+    font-family: Roboto, serif;
+}
+
+#contact_foot{
+    flex-direction: column;
+    align-items: start;
+    padding: 0;
+    margin: 10px;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+footer p{
+    font-size: 25px;
+}
+
+footer li{
+    display: list-item;
+    padding: 5px 0;
+    border: none;
+    font-size: 25px;
+}
+
+footer a{
+    font-size: 20px;
+}
+
+#copy_foot{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

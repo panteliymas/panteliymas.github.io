@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px;
+}
+
+#contact div:last-child{
+    padding: 10px 30px;
+}
+
+.appeal span:first-child{
+    font-size: 30px;
+}
+
+.appeal span:last-child{
+    font-size: 50px;
+}
+
+#news{
+    width: 100%;
+}
