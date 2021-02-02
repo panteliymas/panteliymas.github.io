@@ -21,6 +21,8 @@ $(document).ready(() => {
             back.css('background-size', body.width() + 'px ' + (body.width() * h/w) + 'px');
             $(img).remove();
         };
+
+        $('#man').height($('#man').width());
     }
 
     set_back('contact');
