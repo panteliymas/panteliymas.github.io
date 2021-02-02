@@ -91,45 +91,6 @@ input[type=button]:hover{
     align-items: start;
 }
 
-#aboutus_info h2{
-    font-size: 20px;
-}
-
-#aboutus_info h4{
-    margin: 0;
-    font-size: 20px;
-}
-
-#news_n_articles{
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    background-color: #f9f9f9;
-    display: flex;
-    justify-content: space-around;
-    color: rgba(0, 0, 0, 0.8);
-}
-
-.newsbox{
-    text-align: start;
-    background-color: #f9f9f9;
-    flex-grow: 1;
-    height: 100%;
-    padding: 50px;
-}
-
-.newsbox:nth-child(2){
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(bg2.png);
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    color: white;
-}
-
-.newsbox a{
-    color: #f4762a;
-    font-family: Roboto, serif;
-    text-decoration: none;
-}
-
 #consult{
     display: flex;
 }

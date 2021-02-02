@@ -7,8 +7,6 @@ p{
 }
 
 #logo{
-    margin: 10px;
-    font-size: 40px;
     display: none;
 }
 
@@ -38,12 +36,26 @@ p{
     align-items: center;
 }
 
+#appeal_cover input[type=button], #div3 input[type=button]{
+    height: 70px;
+    font-size: 25px;
+    width: 300px;
+}
+
 #consult{
     flex-direction: column;
 }
 
 .consult_form{
     width: 100%;
+}
+
+.consult_form table{
+    width: 100%;
+}
+
+.consult_form table tr{
+    width: 99%;
 }
 
 .consult_form h2{
@@ -53,30 +65,24 @@ p{
 }
 
 .consult_form input[type=text], .consult_form input[type=email]{
-    height: 20px;
+    height: 40px;
     font-size: 20px;
     padding: 10px;
     margin: 10px;
-}
-
-.consult_form textarea{
-    font-size: 20px;
-    padding: 10px;
-    height: 100px;
-    margin: 5px;
+    width: 90%;
 }
 
 .consult_form input[type=submit]{
-    height: 50px;
+    height: 70px;
     font-size: 20px;
     margin: 15px;
+    width: 90%;
 }
 
 #div3{
     text-align: center;
     width: 100%;
-    padding: 0;
-    padding-top: 20px;
+    padding: 20px 0 0;
 }
 
 #block1{
@@ -98,6 +104,7 @@ p{
 
 #contact_foot{
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -125,10 +132,4 @@ footer a{
 
 #copy_foot p{
     font-size: 15px;
-}
-
-@media all and (max-width: 800px){
-    .hds{
-        font-size: 25px;
-    }
 }
