@@ -3,7 +3,7 @@ $(document).ready(() => {
 
     function set_back(id) {
         let body = $('body');
-        let img = document.createElement('img');//$("<img>");
+        /*let img = document.createElement('img');//$("<img>");
         let back = $('#' + id);
         let url = back.css('background-image').split('"')[1];
 
@@ -20,7 +20,7 @@ $(document).ready(() => {
             back.height(body.width() * img_ratio);
             back.css('background-size', body.width() + 'px ' + (body.width() * h/w) + 'px');
             $(img).remove();
-        };
+        };*/
 
         if ($(this).width() >= 1200)
             $('#appeal_cover').width($('.consult_form').width());
