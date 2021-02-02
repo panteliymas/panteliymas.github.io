@@ -1,0 +1,213 @@
+@import url(./fonts.css);
+
+#contact{
+    background-image: url("bg1.png");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
+input[type=button]{
+    background-color: #f4762a;
+    color: white;
+    padding: 10px 40px;
+    height: 50px;
+    font-family: RobotoBold, sans-serif;
+    font-size: 15px;
+    border: none;
+    margin: 30px 0;
+}
+
+input[type=button]:hover{
+    background-color: #f4762a;
+}
+
+#appeal_cover{
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) );
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.appeal{
+    margin: 20px;
+}
+
+.appeal h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.appeal span{
+    font-size: 25px;
+}
+
+
+#aboutus{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 50px auto;
+    width: 75%;
+}
+
+#block1, #block2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 0;
+}
+
+#man1, #man2{
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 49%;
+    /*width: 560px;*/
+    /*height: 527px;*/
+}
+
+#man1{
+    background-image: url("./ph1.png");
+}
+
+#man2{
+    background-image: url("./ph2.png");
+}
+
+#aboutus1, #aboutus2{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    align-items: start;
+}
+
+#aboutus_info h2{
+    font-size: 20px;
+}
+
+#aboutus_info h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+#news_n_articles{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-around;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.newsbox{
+    text-align: start;
+    background-color: #f9f9f9;
+    flex-grow: 1;
+    height: 100%;
+    padding: 50px;
+}
+
+.newsbox:nth-child(2){
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    color: white;
+}
+
+.newsbox a{
+    color: #f4762a;
+    font-family: Roboto, serif;
+    text-decoration: none;
+}
+
+#consult{
+    display: flex;
+}
+
+.consult_form{
+    font-family: RobotoBold, sans-serif;
+    width: 50%;
+    background-color: #f4762a;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.consult_form h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.consult_form table {
+    margin: auto;
+    border-spacing: 10px;
+}
+
+.consult_form table tr{
+    width: 49%;
+}
+
+.consult_form input[type=text], .consult_form input[type=email]{
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f9b186;
+    border: none;
+    color: rgba(0, 0, 0, 0.7);
+    width: 230px;
+}
+
+.consult_form input[type=text]::placeholder,
+.consult_form input[type=email]::placeholder{
+    color: white;
+}
+
+.consult_form input[type=submit]{
+    background-color: #ffffff;
+    height: 50px;
+    font-family: RobotoBold, sans-serif;
+    font-size: 25px;
+    border: none;
+    color: #f4762a;
+    width: 250px;
+}
+
+.consult_form input[type=submit]:hover{
+    background-color: #e7e7e7;
+    color: #f4762a;
+}
+
+#div3{
+    flex-grow: 1;
+    padding: 100px 100px;
+    height: 100%;
+    background-color: #f6f6f6;
+    width: 50%;
+}
+
+#div3 h2{
+    font-size: 25px;
+    margin: 0;
+}
+
+#div3 p{
+    font-size: 20px;
+}
+
+#div3 input {
+    background-color: #ffffff;
+    height: 50px;
+    font-family: RobotoBold, sans-serif;
+    font-size: 25px;
+    border: 1px solid #f4762a;
+    color: #f4762a;
+}

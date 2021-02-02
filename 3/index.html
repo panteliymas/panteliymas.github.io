@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header></header>
-        <main></main>
-        <footer></footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="1500.css" media="all and (max-width: 1500px)">
+    <link rel="stylesheet" href="1100.css" media="all and (max-width: 1200px)">
+    <link rel="stylesheet" href="800.css" media="all and (max-width: 800px)">
+    <script type="application/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+<header>
+    <div id="logo"><a href="#">LOGO NAME</a></div>
+    <div id="menu_bar">
+        <div id="menu">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">CASES WE HANDLE</a>
+            <a href="#">FAQ</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTACT</a>
+        </div>
+    </div>
+    <div id="phone">
+        <ul>
+            <li><a href="tel:123.456.7890">123.456.7890</a></li>
+        </ul>
+    </div>
+</header>
+<main>
+    <div id="contact">
+        <div id="appeal_cover">
+            <div class="appeal">
+                <h1>BURN INJURY LAWYER</h1>
+                <span>WE CAN HELP YOU OBTAIN JUSTICE</span><br>
+                <input type="button" value="Read More">
+            </div>
+        </div>
+    </div>
+    <div id="consult">
+        <form name="consult" action="" method="get" class="consult_form">
+            <table>
+                <tr>
+                    <td colspan="2"><h2>Schedule Appointment</h2></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="fname" id="fname" placeholder="YOUR NAME" required></td>
+                    <td><input type="text" id="cont_phone" name="phone" placeholder="PHONE" required></td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="email" id="email" placeholder="YOUR EMAIL" required></td>
+                    <td><input type="text" name="location" id="location" placeholder="LOCATION"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="SUBMIT"></td>
+                </tr>
+            </table>
+        </form>
+        <div id="div3">
+            <h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit"</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            <input type="button" value="Read More">
+        </div>
+    </div>
+    <div id="aboutus">
+        <div id="block1">
+            <div id="aboutus1">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque. Mauris euismod suscipit lorem vitae varius.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque. Mauris euismod suscipit lorem vitae varius. Integer sit amet elit quis leo aliquet aliquam tempor in nisl. Donec eleifend nisl sem. Ut ullamcorper ullamcorper neque. Suspendisse lacus nisl, faucibus at placerat pharetra, congue eget risus. Cras suscipit ligula a sapien vestibulum ornare. Sed auctor lectus sapien, at aliquet dui condimentum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In bibendum semper posuere. Aliquam accumsan, augue vel pharetra fermentum, est purus hendrerit velit, eu placerat nulla leo ut metus.</p>
+            </div>
+            <div id="man1"></div>
+        </div>
+        <div id="block2">
+            <div id="man2"></div>
+            <div id="aboutus2">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque. Mauris euismod suscipit lorem vitae varius.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque. Mauris euismod suscipit lorem vitae varius. Integer sit amet elit quis leo aliquet aliquam tempor in nisl. Donec eleifend nisl sem. Ut ullamcorper ullamcorper neque. Suspendisse lacus nisl, faucibus at placerat pharetra, congue eget risus. Cras suscipit ligula a sapien vestibulum ornare. Sed auctor lectus sapien, at aliquet dui condimentum et. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In bibendum semper posuere. Aliquam accumsan, augue vel pharetra fermentum, est purus hendrerit velit, eu placerat nulla leo ut metus.</p>
+            </div>
+        </div>
+
+    </div>
+</main>
+<footer>
+    <div id="contact_foot">
+        <p>
+            <span class="hds">LOGO NAME</span><br>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque.</span>
+        </p>
+        <p>
+            <span class="hds">Adress</span><br>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id mauris neque.</span>
+        </p>
+        <p>
+            <span class="hds">Contact me</span><br>
+            <a href="tel:123.456.7890">123.456.7890</a> <br>
+            <a href="mailto:hello@lawyers.com">hello@lawyers.com</a>
+        </p>
+        <p>
+            <span class="hds">Social</span><br>
+            <a href="#"><img src="gp.png"></a>
+            <a href="#"><img src="li.png"></a>
+            <a href="#"><img src="sk.png"></a>
+        </p>
+    </div>
+    <div id="copy_foot">
+        <p>&copy; 2018 LoremIpsum. All Rights Reserved</p>
+    </div>
+</footer>
+</body>
 </html>
