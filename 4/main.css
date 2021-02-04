@@ -12,6 +12,7 @@
     vertical-align: middle;
     text-align: center;
     color: white;
+    height: 800px;
 }
 
 input[type=button]{
@@ -47,7 +48,7 @@ input[type=button]:hover{
     display: flex;
     justify-content: space-between;
     margin: 50px auto;
-    width: 75%;
+    width: 85%;
 }
 
 #man{

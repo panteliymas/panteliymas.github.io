@@ -1,0 +1,12 @@
+#aboutus_info h2{
+    font-size: 25px;
+}
+
+#aboutus_info p{
+    font-size: 20px;
+}
+
+#man{
+    background-position: top;
+    flex-basis: auto;
+}

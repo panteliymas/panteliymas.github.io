@@ -5,3 +5,34 @@
 #contact_foot .hds{
     font-size: 25px;
 }
+
+.menu_trig{
+    display: block;
+}
+
+#menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#menu_bar{
+    align-items: center;
+}
+
+.consult_form{
+    text-align: center;
+}
+
+.consult_form input[type=text], .consult_form input[type=email]{
+    height: 30px;
+    font-size: 15px;
+    padding: 10px;
+    margin: 0;
+}
+
+.consult_form input[type=submit]{
+    height: 40px;
+    font-size: 20px;
+    width: 250px;
+}

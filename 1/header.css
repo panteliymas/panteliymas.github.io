@@ -33,6 +33,13 @@ header{
     align-items: center;
 }
 
+.menu_trig{
+    text-align: center;
+    display: none;
+    height: 70px;
+    line-height: 70px;
+}
+
 #logo{
     color: #0d2e69;
     border: solid 2px #0d2e69;

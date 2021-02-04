@@ -59,14 +59,14 @@ header{
     height: 30px;
     font-size: 30px;
     padding: 10px;
-    min-width: 600px;
+    width: 500px;
     margin: 10px;
 }
 
 .consult_form textarea{
     font-size: 30px;
     padding: 10px;
-    min-width: 600px;
+    min-width: 500px;
     height: 100px;
     margin: 5px;
 }

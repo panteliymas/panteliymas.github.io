@@ -26,6 +26,13 @@ header a:active{
     color: rgba(0, 0, 0, 0.8);
 }
 
+.menu_trig{
+    text-align: center;
+    display: none;
+    height: 70px;
+    line-height: 70px;
+}
+
 header{
     display: flex;
     justify-content: space-between;

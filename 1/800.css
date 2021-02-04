@@ -2,3 +2,66 @@ header{
     flex-direction: column;
     align-items: center;
 }
+
+#menu{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#menu_bar{
+    align-items: center;
+}
+
+.menu_trig{
+    display: block;
+}
+
+.consult_form{
+    padding: 0;
+}
+
+.consult_form input[type=text], .consult_form input[type=email], .consult_form input[type=tel]{
+    height: 20px;
+    font-size: 15px;
+    padding: 5px;
+    width: 100%;
+    margin: 5px;
+}
+
+.consult_form textarea{
+    font-size: 19px;
+    padding: 5px;
+    min-width: auto;
+    width: 100%;
+    height: 50px;
+    margin: 5px;
+}
+
+.consult_form input[type=submit]{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+#aboutus h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+#div3 h1{
+    font-size: 25px;
+}
+
+.newsbox{
+    width: 100%;
+}
+
+#news img{
+    width: 100%;
+}
+
+footer ul{
+    padding-inline-start: 0;
+}

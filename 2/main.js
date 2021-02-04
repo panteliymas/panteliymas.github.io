@@ -1,31 +1,25 @@
 $(document).ready(() => {
     let body = $("body");
 
-    function set_back(id) {
+    function set_back() {
         let body = $('body');
-        let img = document.createElement('img');//$("<img>");
-        let back = $('#' + id);
-        let url = back.css('background-image').split('"')[1];
 
-        //alert(url);
-        $(img).attr('src', url);
-        let img_ratio = 0;
-        document.body.appendChild(img);
-        let w = $(img).width();
-        let h = $(img).height();
-        img.onload = function(){
-            w = $(this).width();
-            h = $(this).height();
-            img_ratio = h / w;
-            back.height(body.width() * img_ratio);
-            back.css('background-size', body.width() + 'px ' + (body.width() * h/w) + 'px');
-            $(img).remove();
-        };
+        if ($(this).width() <= 800) {
+            $('.table800l').show();
+            $('.table800g').hide();
+        }
+        else {
+            $('.table800l').hide();
+            $('.table800g').show();
+        }
+
+        let w = $('#man').width();
+        $('#man').height(w);
     }
 
-    set_back('contact');
+    set_back();
     $(window).resize(() => {
-        set_back('contact');
+        set_back();
     });
 
     let news_div = $('#news');
@@ -46,7 +40,18 @@ $(document).ready(() => {
         newsbox.append(read_more);
     }
 
-
+    $('.menu_trig').click(() => {
+        if($('#menu').css('display') == 'none') {
+            $('#menu').css({
+                'display': 'flex'
+            });
+            $('header').css('height', 'auto');
+        }
+        else {
+            $('#menu').css('display', 'none');
+            $('header').css('height', $('#logo').outerHeight(true) + 70 + 'px');
+        }
+    });
 });
 
 

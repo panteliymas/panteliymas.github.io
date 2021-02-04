@@ -72,11 +72,11 @@ p{
 
 
 #man{
-    width: 90%;
+    width: 60%;
 }
 
 #aboutus_info{
-    width: 90%;
+    width: 95%;
     align-items: center;
     text-align: justify;
 }
@@ -107,9 +107,9 @@ p{
 }
 
 .newsbox{
-    text-align: start;
+    text-align: center;
     width: 100%;
-    /*padding: 10px;*/
+    padding: 10px;
 }
 
 .newsbox *{

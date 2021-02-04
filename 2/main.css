@@ -9,6 +9,7 @@
     font-family: Playfair, sans-serif;
     justify-content: space-around;
     align-items: center;
+    height: 500px;
     color: white;
 }
 
@@ -50,10 +51,10 @@ input[type=button]:hover{
 
 #man{
     background-image: url("./img1.png");
-    background-size: 500px;
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 45%;
+    width: 50%;
     flex-basis: 575px;
     /*width: 560px;*/
     /*height: 527px;*/
