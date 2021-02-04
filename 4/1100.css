@@ -36,6 +36,7 @@ p{
 
 .consult_form{
     padding: 20px;
+    width: 75%;
 }
 
 .consult_form h2{
@@ -49,6 +50,7 @@ p{
     font-size: 20px;
     padding: 10px;
     margin: 10px;
+    width: 100%;
 }
 
 .consult_form textarea{
@@ -56,6 +58,7 @@ p{
     padding: 10px;
     height: 100px;
     margin: 5px;
+    width: 100%;
 }
 
 .consult_form input[type=submit]{
