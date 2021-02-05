@@ -66,7 +66,6 @@ input[type=button]:hover{
     display: flex;
     flex-direction: column;
     width: 50%;
-    flex-basis: 575px;
     align-items: start;
 }
 
