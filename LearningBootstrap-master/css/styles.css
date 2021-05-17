@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../Fonts/SegoeUI.svg#SegoeUI') format('svg'),
+         url('../Fonts/SegoeUI.ttf') format('truetype'),
+         url('../Fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  *{
+      box-sizing: border-box;
+  }
+  p{
+      margin-bottom: 0;
+  }
+.main-block{
+    background: url('../Images/back.jpg') center center no-repeat local / cover;
+    height: 800px;
+}
+.main-block a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-block a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background: rgba(64, 75, 82, .85);
+}
+
+.logo{
+    font-family: 'SegoeUI';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+.nav-menu{
+    box-sizing: border-box;
+}
+.height-header{
+    height: 150px;
+}
+.main-block span{
+    color: #4bcaff;
+}
+.nav-link{
+    color:#fff;
+    padding: 0.5rem 1.2rem;
+    border: 1px solid transparent;
+}
+.nav-link:hover{
+    color: #4bcaff;
+    border: 1px solid #4bcaff;
+}
+.main-text{
+    margin-top: 250px;
+    text-align: center;
+}
+.main-text h1{
+    display: inline-block;
+    padding: 0 10px;
+    background: rgba(64, 75, 82, .85);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.servises{
+    height: auto;
+    background: #4bcaff;
+    color: white;
+}
+.servis-p{
+    margin-left: -15px;
+    padding-top: 80px;
+}
+.servis-p:after{
+    content: "";
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: white;
+    margin-top: 10px;
+}
+.item-servises{
+    min-height: 200px;
+}
+.servises .col-3{
+    padding: 0 15px 0 0;
+}
+.servises h3{
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.servises p{
+    font-size: 13px;
+}
+.servises .row{
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.portfolio{
+    height: auto;
+}
+.portfolio .container{
+    margin-top: 80px;
+}
+.portfolio .servis-p{
+    color: #515f67;
+    padding-top:0;
+}
+.portfolio .servis-p::after{
+    background: #515f67;
+}
+.portfolio .nav-link {
+    color: #515f67;
+}
+.portfolio .nav-link:hover{
+    color: #4bcaff;
+    /* border: 1px solid #4bcaff; */
+}
+
+.photos .col-3{
+    padding: 15px;
+}
+.photos img{
+    width: 100%;
+}
+.photos .row{
+    margin-bottom: 30px;
+}
+.default{
+    min-height: 575px;
+    width: 100%;
+    background: #515f67;
+    color: #fff;
+}
+.default .servis-p{
+    color: #fff;
+}
+.default .row{
+    min-height: 100px;
+}
+.default p{
+    font-size: 14px;
+}
+.default button{
+    margin-top: 30px;
+}
+
+.twitter{
+    color: #fff;
+    height: auto;
+    background: #4bcaff;
+}
+.twitter .servis-p{
+    margin-left: 0;
+}
+.twitter i{
+    padding-top: 80px;
+    font-size: 25px;
+}
+.twitter a{
+    color: white;
+}
+.twitter a:hover{
+    color: white;
+}
+.twitter p{
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.twitter .col-1{
+    margin-right: 15px;
+}
+.who{
+    width: 100%;
+    background: url('../Images/photo.jpg') center center no-repeat local / cover;
+    color: #fff;
+}
+
+.who-img .col-sm-8{
+    width: auto;
+}
+.who .col-6{
+    margin-top: 15px;
+}
+.row img{
+    margin-top: 21px;
+    margin-right: 5px;
+}
+
+.contacts{
+    min-height: auto;
+    background: url('../Images/form.jpg') center center no-repeat local / cover;
+    color: #fff;
+}
+
+.contacts p{
+    margin-top: 40px;
+
+}
+.contacts p:last-child{
+    margin-top: 30px;
+
+}
+.contacts form label{
+    margin-bottom: 0;
+}
+.contacts form label,
+.contacts textarea,
+.contacts button
+{
+    margin-top: 40px;
+}
+.contacts button{
+    width: 100%;
+
+}
+.contacts .form-control,
+textarea{
+    background-color: transparent;
+}
+footer{
+    height: 170px;
+    background: #353f47;
+}
+footer .row{
+    height: 170px;
+}
+footer a{
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+    color: #4c5961;
+}
+footer a:not(:last-child):after
+{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    margin-left: 14px;
+    height: 12px;
+    background: #4c5961;
+}
+footer a:hover {
+    
+    text-decoration: none;
+    color: rgb(92, 123, 143)
+}
+
+
+@media(max-width: 768px){
+    .main-text h1{
+        font-size: 30px;
+    }
+    .who img{
+        margin-right: 20px;
+    }
+    .who h2{
+        font-size: 20px;
+    }
+    .contacts p{
+        font-size: 11px;
+    }
+    .none-txt{
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px){
+    .main-block .logo{
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main-block .nav-menu{
+        margin: 0 auto;
+    }
+    .container .servis-p,
+    .portfolio .servis-p{
+        padding-top: 30px;
+    }
+    .portfolio .container{
+        margin-top: 0;
+    }
+    .default button{
+        margin-bottom: 30px;
+    }
+    .embed-responsive{
+        margin-bottom: 30px;
+    }
+    .twitter i{
+        padding-top: 40px;
+    }
+    .contacts p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 576px){
+    .main-block .nav-menu{
+        display: none;
+    }
+    .main-text h1{
+        font-size: 20px;
+    }
+    .item-servises{
+        text-align: center;
+    }
+    .servises .servis-p,
+    .portfolio .servis-p{
+        margin-left: 0;
+    }
+    .portfolio ul{
+        text-align: center;
+        display: block;
+    }
+    .twitter .col-11 p{
+        font-size: 16px;
+    }
+    .twitter p:last-child{
+        font-size: 21px;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    footer a{
+        font-size: 10px;
+    }
+}
+
